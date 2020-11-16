@@ -1,43 +1,43 @@
-#ifndef ____VECTORCONTAINER_H___
-#define ____VECTORCONTAINER_H___
+#ifndef ____VECTORCONTAINER_HPP__
+#define ____VECTORCONTAINER_HPP__
 #include <iostream>
 #include <cstring>
 #include <vector>
-#include "base.h"
-#include "Container.h"
+#include "base.hpp"
+#include "container.hpp"
 
 using namespace std;
 
 class VectorContainer : public Container {
     protected:
-        vector <Base*> vector;
+        vector <Base*> vec;
 
     public:
         VectorContainer() : Container() {};
         VectorContainer(Sort* sort) : Container(sort) {}; 
 
         void add_element(Base* element) {
-            vector.push_back(element);
+            vec.push_back(element);
         };
 
         void print() {
-            vector <Base*> printVector = vector;
+            vector <Base*> printVector = vec;
             for (int i = 0; i < printVector.size(); ++i) {
                 cout << printVector[i] -> evaluate() << endl;
             }
         };
 
         Base* at(int i) {
-           return vector[i];
+           return vec[i];
         };
 
         int size() {
-            return vector.size();
+            return vec.size();
         };
   	void swap(int i, int j) {
-            Base* temp = vector[i];
-            vector[i] = vector[j];
-            vector[j] = temp;
+            Base* temp = vec[i];
+            vec[i] = vec[j];
+            vec[j] = temp;
         };
 
         void sort() {
@@ -51,5 +51,5 @@ class VectorContainer : public Container {
 
 };
 
-#endif //____VECTORCONTAINER_H___
+#endif //____VECTORCONTAINER_HPP__
 
