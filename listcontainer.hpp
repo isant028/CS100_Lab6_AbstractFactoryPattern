@@ -29,7 +29,6 @@ class ListContainer : public Container {
 		void swap(int, int);
 		int size();
 		void set_sort_function(Sort*);
-		list<Base*> getList();
 };
 
 #endif //__LISTCONTAINER_HPP__
