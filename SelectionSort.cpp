@@ -15,11 +15,11 @@ class SelectionSort : public Sort {
             for (i = numLength - 1; i > 0; i--){
                 first = 0;
                 for (j=1; j<=i; j++){
-                    if (container->at(j)->evaluate() < container->at(first)->evaluate()){
+                    if (container->at(j)->evaluate() > container->at(first)->evaluate()){
                         first = j;
                     }
                 }
-                container->swap(i, j);
+                container->swap(i, first);
             }
         }
 };
