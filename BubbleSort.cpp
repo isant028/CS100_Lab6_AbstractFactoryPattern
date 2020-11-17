@@ -4,6 +4,7 @@
 #include <list>
 #include "sort.hpp"
 #include "listcontainer.hpp"
+#include "base.hpp"
 
 class BubbleSort : public Sort {
     public:
@@ -15,7 +16,7 @@ class BubbleSort : public Sort {
             for (i=1; (i <= numLength) && flag; i++){
                 flag = 0;
                 for (j=0; j<(numLength - 1); j++){
-                    if (container->at(j+1)->evaluate() > container->at(j)->evaluate()){
+                    if (container->at(j+1)->evaluate() < container->at(j)->evaluate()){
                         container->swap(j, j+1);
                         flag = 1;
                     }
