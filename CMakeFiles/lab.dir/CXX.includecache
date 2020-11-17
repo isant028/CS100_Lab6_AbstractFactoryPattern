@@ -6,73 +6,73 @@
 
 #IncludeRegexTransform: 
 
-/home/csmajs/mvong006/lab-06---strategy-pattern-mvong006-isant028-amuni012/Mult.hpp
+/home/csmajs/amuni012/lab-06---strategy-pattern-mvong006-isant028-amuni012/Mult.hpp
 base.hpp
-/home/csmajs/mvong006/lab-06---strategy-pattern-mvong006-isant028-amuni012/base.hpp
+/home/csmajs/amuni012/lab-06---strategy-pattern-mvong006-isant028-amuni012/base.hpp
 
-/home/csmajs/mvong006/lab-06---strategy-pattern-mvong006-isant028-amuni012/Rand.hpp
+/home/csmajs/amuni012/lab-06---strategy-pattern-mvong006-isant028-amuni012/Rand.hpp
 base.hpp
-/home/csmajs/mvong006/lab-06---strategy-pattern-mvong006-isant028-amuni012/base.hpp
+/home/csmajs/amuni012/lab-06---strategy-pattern-mvong006-isant028-amuni012/base.hpp
 string
 -
 
-/home/csmajs/mvong006/lab-06---strategy-pattern-mvong006-isant028-amuni012/add.hpp
+/home/csmajs/amuni012/lab-06---strategy-pattern-mvong006-isant028-amuni012/add.hpp
 base.hpp
-/home/csmajs/mvong006/lab-06---strategy-pattern-mvong006-isant028-amuni012/base.hpp
+/home/csmajs/amuni012/lab-06---strategy-pattern-mvong006-isant028-amuni012/base.hpp
 string
 -
 string.h
 -
 
-/home/csmajs/mvong006/lab-06---strategy-pattern-mvong006-isant028-amuni012/base.hpp
+/home/csmajs/amuni012/lab-06---strategy-pattern-mvong006-isant028-amuni012/base.hpp
 string
 -
 
-/home/csmajs/mvong006/lab-06---strategy-pattern-mvong006-isant028-amuni012/div.hpp
+/home/csmajs/amuni012/lab-06---strategy-pattern-mvong006-isant028-amuni012/div.hpp
 base.hpp
-/home/csmajs/mvong006/lab-06---strategy-pattern-mvong006-isant028-amuni012/base.hpp
+/home/csmajs/amuni012/lab-06---strategy-pattern-mvong006-isant028-amuni012/base.hpp
 string
 -
 string.h
 -
 op.hpp
-/home/csmajs/mvong006/lab-06---strategy-pattern-mvong006-isant028-amuni012/op.hpp
+/home/csmajs/amuni012/lab-06---strategy-pattern-mvong006-isant028-amuni012/op.hpp
 
-/home/csmajs/mvong006/lab-06---strategy-pattern-mvong006-isant028-amuni012/main.cpp
+/home/csmajs/amuni012/lab-06---strategy-pattern-mvong006-isant028-amuni012/main.cpp
 iostream
 -
 base.hpp
-/home/csmajs/mvong006/lab-06---strategy-pattern-mvong006-isant028-amuni012/base.hpp
+/home/csmajs/amuni012/lab-06---strategy-pattern-mvong006-isant028-amuni012/base.hpp
 op.hpp
-/home/csmajs/mvong006/lab-06---strategy-pattern-mvong006-isant028-amuni012/op.hpp
+/home/csmajs/amuni012/lab-06---strategy-pattern-mvong006-isant028-amuni012/op.hpp
 Rand.hpp
-/home/csmajs/mvong006/lab-06---strategy-pattern-mvong006-isant028-amuni012/Rand.hpp
+/home/csmajs/amuni012/lab-06---strategy-pattern-mvong006-isant028-amuni012/Rand.hpp
 Mult.hpp
-/home/csmajs/mvong006/lab-06---strategy-pattern-mvong006-isant028-amuni012/Mult.hpp
+/home/csmajs/amuni012/lab-06---strategy-pattern-mvong006-isant028-amuni012/Mult.hpp
 add.hpp
-/home/csmajs/mvong006/lab-06---strategy-pattern-mvong006-isant028-amuni012/add.hpp
+/home/csmajs/amuni012/lab-06---strategy-pattern-mvong006-isant028-amuni012/add.hpp
 div.hpp
-/home/csmajs/mvong006/lab-06---strategy-pattern-mvong006-isant028-amuni012/div.hpp
+/home/csmajs/amuni012/lab-06---strategy-pattern-mvong006-isant028-amuni012/div.hpp
 pow.hpp
-/home/csmajs/mvong006/lab-06---strategy-pattern-mvong006-isant028-amuni012/pow.hpp
+/home/csmajs/amuni012/lab-06---strategy-pattern-mvong006-isant028-amuni012/pow.hpp
 sub.hpp
-/home/csmajs/mvong006/lab-06---strategy-pattern-mvong006-isant028-amuni012/sub.hpp
+/home/csmajs/amuni012/lab-06---strategy-pattern-mvong006-isant028-amuni012/sub.hpp
 
-/home/csmajs/mvong006/lab-06---strategy-pattern-mvong006-isant028-amuni012/op.hpp
+/home/csmajs/amuni012/lab-06---strategy-pattern-mvong006-isant028-amuni012/op.hpp
 base.hpp
-/home/csmajs/mvong006/lab-06---strategy-pattern-mvong006-isant028-amuni012/base.hpp
+/home/csmajs/amuni012/lab-06---strategy-pattern-mvong006-isant028-amuni012/base.hpp
 string
 -
 
-/home/csmajs/mvong006/lab-06---strategy-pattern-mvong006-isant028-amuni012/pow.hpp
+/home/csmajs/amuni012/lab-06---strategy-pattern-mvong006-isant028-amuni012/pow.hpp
 base.hpp
-/home/csmajs/mvong006/lab-06---strategy-pattern-mvong006-isant028-amuni012/base.hpp
+/home/csmajs/amuni012/lab-06---strategy-pattern-mvong006-isant028-amuni012/base.hpp
 string
 -
 
-/home/csmajs/mvong006/lab-06---strategy-pattern-mvong006-isant028-amuni012/sub.hpp
+/home/csmajs/amuni012/lab-06---strategy-pattern-mvong006-isant028-amuni012/sub.hpp
 base.hpp
-/home/csmajs/mvong006/lab-06---strategy-pattern-mvong006-isant028-amuni012/base.hpp
+/home/csmajs/amuni012/lab-06---strategy-pattern-mvong006-isant028-amuni012/base.hpp
 string
 -
 string.h

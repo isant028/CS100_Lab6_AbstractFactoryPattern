@@ -4,6 +4,8 @@
 CMakeFiles/test.dir/unit_test.cpp.o: BubbleSort.cpp
 CMakeFiles/test.dir/unit_test.cpp.o: Mult.hpp
 CMakeFiles/test.dir/unit_test.cpp.o: SelectionSort.cpp
+CMakeFiles/test.dir/unit_test.cpp.o: VectorContainer.hpp
+CMakeFiles/test.dir/unit_test.cpp.o: VectorContainer_test.hpp
 CMakeFiles/test.dir/unit_test.cpp.o: add.hpp
 CMakeFiles/test.dir/unit_test.cpp.o: base.hpp
 CMakeFiles/test.dir/unit_test.cpp.o: container.hpp

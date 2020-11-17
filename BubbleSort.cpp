@@ -1,9 +1,11 @@
 #ifndef __BUBBLESORT_CPP__
 #define __BUBBLESORT_CPP__
 
+#include <vector>
 #include <list>
 #include "sort.hpp"
 #include "listcontainer.hpp"
+#include "VectorContainer.hpp"
 #include "base.hpp"
 
 class BubbleSort : public Sort {

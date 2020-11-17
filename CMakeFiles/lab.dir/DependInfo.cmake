@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/csmajs/mvong006/lab-06---strategy-pattern-mvong006-isant028-amuni012/main.cpp" "/home/csmajs/mvong006/lab-06---strategy-pattern-mvong006-isant028-amuni012/CMakeFiles/lab.dir/main.cpp.o"
+  "/home/csmajs/amuni012/lab-06---strategy-pattern-mvong006-isant028-amuni012/main.cpp" "/home/csmajs/amuni012/lab-06---strategy-pattern-mvong006-isant028-amuni012/CMakeFiles/lab.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

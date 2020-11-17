@@ -1,4 +1,4 @@
-# Install script for directory: /home/csmajs/mvong006/lab-06---strategy-pattern-mvong006-isant028-amuni012
+# Install script for directory: /home/csmajs/amuni012/lab-06---strategy-pattern-mvong006-isant028-amuni012
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/csmajs/mvong006/lab-06---strategy-pattern-mvong006-isant028-amuni012/googletest/cmake_install.cmake")
+  include("/home/csmajs/amuni012/lab-06---strategy-pattern-mvong006-isant028-amuni012/googletest/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/csmajs/mvong006/lab-06---strategy-pattern-mvong006-isant028-amuni012/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/csmajs/amuni012/lab-06---strategy-pattern-mvong006-isant028-amuni012/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
