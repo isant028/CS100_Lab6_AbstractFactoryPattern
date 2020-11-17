@@ -68,10 +68,10 @@ RM = /usr/bin/cmake3 -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/csmajs/isant028/lab-06---strategy-pattern-mvong006-isant028-amuni012
+CMAKE_SOURCE_DIR = /home/csmajs/mvong006/lab-06---strategy-pattern-mvong006-isant028-amuni012
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/csmajs/isant028/lab-06---strategy-pattern-mvong006-isant028-amuni012
+CMAKE_BINARY_DIR = /home/csmajs/mvong006/lab-06---strategy-pattern-mvong006-isant028-amuni012
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -146,9 +146,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/csmajs/isant028/lab-06---strategy-pattern-mvong006-isant028-amuni012/CMakeFiles /home/csmajs/isant028/lab-06---strategy-pattern-mvong006-isant028-amuni012/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/csmajs/mvong006/lab-06---strategy-pattern-mvong006-isant028-amuni012/CMakeFiles /home/csmajs/mvong006/lab-06---strategy-pattern-mvong006-isant028-amuni012/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/csmajs/isant028/lab-06---strategy-pattern-mvong006-isant028-amuni012/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/csmajs/mvong006/lab-06---strategy-pattern-mvong006-isant028-amuni012/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
