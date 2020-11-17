@@ -95,4 +95,35 @@ TEST(SortThisTestSet, SelectionSortTest){
 	EXPECT_EQ(test_container->at(2)->evaluate(), 28);	
 
 }
+TEST(VectorContainerTestSet, BubbleSortTestNegative) {
+	Op* NegNine = new Op(-9);
+	Op* one = new Op(1);
+	Mult* TreeA = new Mult(NegNine, one);
+
+	Op* five = new Op(5);
+	Op* Negtwo = new Op(-2);
+	Add* TreeB = new Add(five, Negtwo);
+
+	Op* six = new Op(6);
+	Op* NegFour = new Op(-4);
+	Sub* TreeC = new Sub(six, NegFour);
+
+	ListContainer* test_container1 = new ListContainer();
+	test_container1->add_element(TreeA);
+	test_container1->add_element(TreeB);
+	test_container1->add_element(TreeC);
+
+	ASSERT_EQ(test_container1->size(), 3);
+	EXPECT_EQ(test_container1->at(0)->evaluate(), -9);
+	EXPECT_EQ(test_container1->at(1)->evaluate(), 3);
+	EXPECT_EQ(test_container1->at(2)->evaluate(), 10);
+
+
+	test_container1->set_sort_function(new BubbleSort());
+	test_container1->sort();
+	ASSERT_EQ(test_container1->size(), 3);
+	EXPECT_EQ(test_container1->at(0)->evaluate(), -9);
+	EXPECT_EQ(test_container1->at(1)->evaluate(), 3);
+	EXPECT_EQ(test_container1->at(2)->evaluate(), 10);	
+}
 #endif 
