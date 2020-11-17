@@ -5,17 +5,18 @@
 #include <vector>
 #include "base.hpp"
 #include "container.hpp"
+#include "sort.hpp" 
 
 using namespace std;
 
 class VectorContainer : public Container {
     protected:
         vector <Base*> vec;
+	Sort* thisSortFunction; 
 
     public:
         VectorContainer() : Container() {};
         VectorContainer(Sort* sort) : Container(sort) {}; 
-
         void add_element(Base* element) {
             vec.push_back(element);
         };
@@ -41,14 +42,19 @@ class VectorContainer : public Container {
         };
 
         void sort() {
-            if (sort_function == NULL) {
-                throw "No sort specified\n";
-                return;
-            }
-
-            sort_function -> sort(this);
-             };
-
+            if (thisSortFunction == NULL){
+		throw "No sort specified\n";
+		return;
+	}
+			
+	else if (thisSortFunction = new SelectionSort()){
+		thisSortFunction->sort(this);
+	}
+	else if (thisSortFunction = new BubbleSort()){
+		thisSortFunction->sort(this);
+	}           };
+	void set_sort_function(Sort* sort_function){	
+	thisSortFunction = sort_function;}; 
 };
 
 #endif //____VECTORCONTAINER_HPP__

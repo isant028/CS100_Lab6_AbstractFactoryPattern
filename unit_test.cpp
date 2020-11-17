@@ -10,6 +10,7 @@
 //#include "Rand_Test.hpp"
 #include "listcontainer_test.hpp"
 #include "VectorContainer_test.hpp"
+#include "sortTest_test.hpp" 
 int main(int argc, char **argv) {
   ::testing::InitGoogleTest(&argc, argv);
   return RUN_ALL_TESTS();
