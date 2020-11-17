@@ -10,10 +10,6 @@ main.cpp
 )
 ADD_EXECUTABLE(test
     unit_test.cpp
-	base.hpp
-op.hpp
-op_test.hpp
-
 )
 
 TARGET_LINK_LIBRARIES(test gtest)
